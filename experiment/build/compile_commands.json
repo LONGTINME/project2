@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/C++/build",
+  "command": "\"C:/Program Files/w64devkit/bin/c++.exe\" -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/MyProject.dir/mixing_table.cpp.obj -c D:/C++/project1/mixing_table.cpp",
+  "file": "D:/C++/project1/mixing_table.cpp",
+  "output": "CMakeFiles/MyProject.dir/mixing_table.cpp.obj"
+},
+{
+  "directory": "D:/C++/build",
+  "command": "\"C:/Program Files/w64devkit/bin/c++.exe\" -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/MyProject.dir/Vehicle.cpp.obj -c D:/C++/project1/Vehicle.cpp",
+  "file": "D:/C++/project1/Vehicle.cpp",
+  "output": "CMakeFiles/MyProject.dir/Vehicle.cpp.obj"
+},
+{
+  "directory": "D:/C++/build",
+  "command": "\"C:/Program Files/w64devkit/bin/c++.exe\" -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/MyProject.dir/RSU.cpp.obj -c D:/C++/project1/RSU.cpp",
+  "file": "D:/C++/project1/RSU.cpp",
+  "output": "CMakeFiles/MyProject.dir/RSU.cpp.obj"
+},
+{
+  "directory": "D:/C++/build",
+  "command": "\"C:/Program Files/w64devkit/bin/c++.exe\" -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/MyProject.dir/ES.cpp.obj -c D:/C++/project1/ES.cpp",
+  "file": "D:/C++/project1/ES.cpp",
+  "output": "CMakeFiles/MyProject.dir/ES.cpp.obj"
+},
+{
+  "directory": "D:/C++/build",
+  "command": "\"C:/Program Files/w64devkit/bin/c++.exe\" -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB @CMakeFiles/MyProject.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/MyProject.dir/FN_Allocation.cpp.obj -c D:/C++/project1/FN_Allocation.cpp",
+  "file": "D:/C++/project1/FN_Allocation.cpp",
+  "output": "CMakeFiles/MyProject.dir/FN_Allocation.cpp.obj"
+}
+]

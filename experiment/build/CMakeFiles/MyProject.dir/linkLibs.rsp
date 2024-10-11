@@ -1,0 +1,1 @@
+ "D:/C++/vcpkg-master/installed/x64-windows/debug/lib/spdlogd.lib" "D:/C++/vcpkg-master/installed/x64-windows/debug/lib/fmtd.lib" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

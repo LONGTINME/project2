@@ -1,0 +1,82 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "type": "cppbuild",
+//             "label": "C/C++: g++.exe 生成活动文件",
+//             "command": "C:/Program Files/w64devkit/bin/g++.exe",
+//             "args": [
+//                 "-fdiagnostics-color=always",
+//                 "-g",
+//                 // "${fileDirname}/test.cpp",
+//                 "${fileDirname}/*.cpp",
+//                 "-o",
+//                 "${fileDirname}/a.exe",
+//                 "-I",
+//                 "D:/C++/cryptopp890",
+//                 "-L",
+//                 "D:/C++/cryptopp890",
+//                 "-lcryptopp"
+//             ],
+//             "options": {
+//                 "cwd": "${fileDirname}"
+//             },
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "detail": "调试器生成的任务。"
+//         }
+//     ]
+// }
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/Program Files/w64devkit/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}/*.cpp",  // 编译当前目录下的所有 .cpp 文件（或替换为 "${file}" 编译当前文件）
+                "-o",
+                "${fileDirname}/a.exe",
+                "-I",
+                "D:/C++/cryptopp890",
+                "-I",
+                "D:/C++/gmp-6.2.1/build/include",
+                "-I",
+                "D:/C++/libpaillier-build/include",
+                "-L",
+                "D:/C++/cryptopp890",
+                "-L",
+                "D:/C++/gmp-6.2.1/build/lib",
+                "-L",
+                "D:/C++/libpaillier-build/lib",
+                "-lgmp",
+                "-lgmpxx",
+                "-lcryptopp",
+                "-lpaillier"
+            ],
+            "options": {
+                "cwd": "${fileDirname}",
+                "env": {
+                    "PATH": "${workspaceFolder}/path_to_dll_directory;${env:PATH}"
+                }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "使用w64devkit编译项目并链接GMP和Paillier库"
+        }
+    ]
+}
+
